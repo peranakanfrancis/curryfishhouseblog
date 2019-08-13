@@ -6,6 +6,9 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "jekyll"
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
