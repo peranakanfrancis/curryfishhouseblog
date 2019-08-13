@@ -6,9 +6,16 @@ comments: false
 ---
 
 <h3>We are proud to be Malaysian, and proud to offer the original Malaysia's flavour!</h3>
+<p>To show that we care about what we do, we provide only the best local fare to our customers.</p>
 <br>
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="company logo" /></p>
+<h4>NO ARTIFICIAL INGREDIENTS. NO PRESERVATIVES</h4>
+<p>We use 100% natural and fresh ingredients to make our otah and other food, and only prepare our dishes after you order. Because we believe in providing you the best, each of our food items comes with several options and combinations, so that you can choose what matches your own taste, occasion and lifestyle.<p>
+<br>
+<h4>WE USE HOME-MADE RECIPES</h4>
+<p>All our recipes come from the Family’s rich heritage, and our family’s own unique flavour. Even our ingredients, like our Curry sauce, are made from scratch. Most importantly, we keep it at affordable prices, so that you can enjoy authentic local food without burning a hole in your wallet.</p>
+<br>
 
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="company logo" /></p>
 
 <p>We are committed to delivering only the freshest food to our customers. And for that, supermarkets won’t do. Neither will pre-packed, preserved food. We need to get the ingredients ourselves, fresh from the market, to be guaranteed of the best.</p>
 
