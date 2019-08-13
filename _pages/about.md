@@ -1,35 +1,24 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: The Story About Us
 permalink: /about
 comments: false
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<h3>We are proud to be Malaysian, and proud to offer the original Malaysia's flavour!</h3>
+<br>
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="company logo" /></p>
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+<p>We are committed to delivering only the freshest food to our customers. And for that, supermarkets won’t do. Neither will pre-packed, preserved food. We need to get the ingredients ourselves, fresh from the market, to be guaranteed of the best.</p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<p>The kitchen is the most important part of our business; it is where the food is produced. It must be working efficiently, because we promise to produce our food after you order.</p>
 
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Are you hungry?</h5>
-
-<p>Why not visit our restaurant with your friends and family and have a blast curry feast?</p>
-
-<a target="_blank" href="https://curryfishhouse.com/#menu" class="btn btn-danger">View Menu <i class="fas fa-utensil-spoon"></i></a> <a target="_blank" href="https://curryfishhouse.com/#menu" class="btn btn-warning">Order Delivery <i class="fas fa-motorcycle"></i></a>
-
-</div>
-</div>
-</div>
+<p>Efficiency is not the only important thing; so is hygiene and safety. All our staff are required to wear masks and gloves while working. Time has been allotted for them to be trained in proper methods of hygiene. This way, our customers will stay healthy and happy when eating our food.</p>
+<br>
+<h4>SPREADING OUR SECRET RECIPES TO EVERYONE</h4>
+<p>Like our kitchens, store staff are inspected for their quality as well. We train our staff to be friendly and lend a listening ear to customers’ needs. Because without you, the customer, where would we be tomorrow?</p>
+<p>We identify the profile of the people visiting our shops, and brainstorms new food items that will tickle your taste buds. We bear in mind our mission of spreading our unique authentic local curry flavour islandwide.</p>
+<br>
+<h4>ANYTIME AND ANYWHERE</h4>
+<p>With all this, you can be certain that at any of our stores, you will get only the best in terms of service and food quality. Bon Appetit!</p>
