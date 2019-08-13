@@ -1,0 +1,69 @@
+# Site
+name: "Choon Chiang Yen Curry Fish House | Blog"
+title: "Choon Chiang Yen Curry Fish House | Blog"
+description: "Our kitchen stories at Choon Chiang Yen Curry Fish House. Visit us for authentic Malaysia curries in Bukit Mertajam today!"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl:
+google_analytics: 'UA-145256520-1'
+disqus: ''
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  peter:
+    name: Peter
+    display_name: The Chef
+    avatar: 'assets/images/peter.png'
+    email: peter@curryfishhouse.com
+    facebook: https://www.facebook.com/tan.peter.1690
+    description: "The master mind of all the curries in the menu are created by him. 30 years in making Malaysian curry, also owned his brand name of curry paste in the market."
+  lee:
+    name: Lee
+    display_name: The Coordinator
+    avatar: 'assets/images/lee.png'
+    email: lee@curryfishhouse.com
+    facebook: https://www.facebook.com/profile.php?id=100008493618987
+    description: "This man makes Choon Chiang Yen Curry Fish House happens! Throughout his years of works in F&B industry, he is gonna wow you with a special dining experience this time!"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
