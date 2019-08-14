@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/grand-opening/</loc>
+<lastmod>2019-08-14T00:00:00+05:45</lastmod>
+</url>
+<url>
+<loc>/about</loc>
+</url>
+<url>
+<loc>/categories</loc>
+</url>
+<url>
+<loc>/cookies</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/privacy</loc>
+</url>
+<url>
+<loc>/tags</loc>
+</url>
+<url>
+<loc>/terms</loc>
+</url>
+<url>
+<loc>/category/announcement/</loc>
+</url>
+<url>
+<loc>/category/promo/</loc>
+</url>
+</urlset>
