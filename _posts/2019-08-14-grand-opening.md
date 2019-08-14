@@ -14,6 +14,6 @@ We are happy to announce that our newly renovated restaurant will be ready for y
 
 We are pleased to invite you to celebrate with us on September 9th 2019 at our location at Pusat Perniagaan Seri Impian with free drinks on all orders at 12:00pm. Please find our delicious menu here. Fave customers can even get extra 10% off when pay using FavePay.
 
-Kindly Like our Facebook Page and inform us of your attendance via RSVP form on our Facebook event. We look forward to serving you!
+Kindly Like our Facebook Page and inform us of your attendance via <a href="https://www.facebook.com/events/465658187322162/" target="_blank">RSVP form on our Facebook event</a>. We look forward to serving you!
 
 <div class="fb-page" data-href="https://www.facebook.com/curryfishhouse" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/curryfishhouse" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/curryfishhouse">Choon Chiang Yen Curry Fish House</a></blockquote></div>
