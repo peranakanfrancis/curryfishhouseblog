@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
               s = 'url(' + t.attr('src') + ')',
               p = t.parent(),
               d = jQuery('<div></div>');
-  
+
           p.append(d);
           d.css({
               'height'                : '290',
@@ -60,8 +60,8 @@ jQuery(document).ready(function($){
         }
       }
     });
-    
-    
+
+
     // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
@@ -81,7 +81,7 @@ jQuery(document).ready(function($){
 
     function hasScrolled() {
         var st = $(this).scrollTop();
-        
+
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
             return;
@@ -89,29 +89,29 @@ jQuery(document).ready(function($){
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight){
-            // Scroll Down            
-            $('nav').removeClass('nav-down').addClass('nav-up'); 
+            // Scroll Down
+            $('nav').removeClass('nav-down').addClass('nav-up');
             $('.nav-up').css('top', - $('nav').outerHeight() + 'px');
-           
+
         } else {
             // Scroll Up
-            if(st + $(window).height() < $(document).height()) {               
+            if(st + $(window).height() < $(document).height()) {
                 $('nav').removeClass('nav-up').addClass('nav-down');
-                $('.nav-up, .nav-down').css('top', '0px');             
+                $('.nav-up, .nav-down').css('top', '0px');
             }
         }
 
         lastScrollTop = st;
     }
-        
-    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
-    
+
+    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');
+
     // spoilers
      $(document).on('click', '.spoiler', function() {
         $(this).removeClass('spoiler');
      });
-    
- });   
+
+ });
 
 // deferred style loading
 var loadDeferredStyles = function () {
@@ -127,3 +127,32 @@ if (raf) raf(function () {
 	window.setTimeout(loadDeferredStyles, 0);
 });
 else window.addEventListener('load', loadDeferredStyles);
+
+// WhatsApp
+waShBtn = function() {
+  if( this.isIos === true ) {
+    var b = [].slice.call( document.querySelectorAll(".wa_btn") );
+    for (var i = 0; i < b.length; i++) {
+      var t = b[i].getAttribute("data-text");
+      var u = b[i].getAttribute("data-href");
+      var o = b[i].getAttribute("href");
+      var at = "?text=" + encodeURIComponent( t );
+      if (t) {
+          at += "%20%0A";
+      }
+      if (u) {
+          at += encodeURIComponent( u );
+      } else {
+          at += encodeURIComponent( document.URL );
+      }
+      b[i].setAttribute("href", o + at);
+      b[i].setAttribute("target", "_top");
+      b[i].setAttribute("target", "_top");
+      b[i].className += ' activeWhatsapp';
+    }
+  }
+}
+
+waShBtn.prototype.isIos = ((navigator.userAgent.match(/Android|iPhone/i) && !navigator.userAgent.match(/iPod|iPad/i)) ? true : false);
+
+var theWaShBtn = new waShBtn();
